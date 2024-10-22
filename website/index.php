@@ -3,7 +3,7 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html>
-<head><title>NJIT LED Bulbs Shop</title></head>
+<head><title>SUSTAINABLE LIVING</title></head>
 <body>
    <section id="container">
     

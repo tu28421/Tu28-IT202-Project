@@ -2,7 +2,7 @@
 require_once('database.php');
 $emailAddress = $_POST['emailAddress'];
 $password = $_POST['password'];
-$query = "SELECT firstName, lastName, pronouns FROM LEDBulbsManagers 
+$query = "SELECT firstName, lastName, pronouns FROM SUSTAINABLELIVINGManagers 
         WHERE emailAddress = ? AND password = SHA2(?,256)";
 $db = getDB();
 $stmt = $db->prepare($query);
@@ -22,7 +22,7 @@ $_SESSION['lastName'] = $lastName;
 
    header("Location: index.php");
 } else {
-   echo "<h1>NJIT LED Bulbs Shop</h1>";
+   echo "<h1>SUSTAINABLE LIVING SHOP</h1>";
    echo "<h2>Sorry, login incorrect</h2>\n";
    echo "<a href=\"index.php\">Please try again</a>\n";
 }

@@ -1,0 +1,16 @@
+CREATE:
+http://localhost:5050/Products/addsustainablelivingproduct.test.php?itemID=1000&itemCode=LARQ&itemName=Waterbottle&itemDescription=%27reusable%20water%20bottles%20made%20from%20a%20range%20of%20materials,%20including%20BPA-free%20plastic.%20Great%20for%20saving%20enviornment.&categoryID=100&wholesalePrice=2.99&listPrice=5.99&color=Blue
+
+Verify:
+http://localhost:5050/Products/listsustainablelivingproduct.test.php
+
+UPDATE:
+http://localhost:5050/Products/changesustainablelivingproduct.test.php?itemID=1000&Name=LarqBottle
+verify:
+http://localhost:5050/Products/listsustainablelivingproduct.test.php
+
+Delete:
+http://localhost:5050/Products/removesustainablelivingproduct.test.php?itemID=1000
+
+verify:
+http://localhost:5050/Products/listsustainablelivingproduct.test.php

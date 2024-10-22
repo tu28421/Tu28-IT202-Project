@@ -1,0 +1,17 @@
+Add:
+http://localhost:5050/category/addsustainablelivingcategory.test.php?categoryID=100&categoryCode=RWB&categoryName=ReusableWaterBottle&categorySize=7
+
+Verify:
+http://localhost:5050/category/listsustainablelivingcategories.test.php
+
+Delete:
+http://localhost:5050/category/removesustainablelivingcategory.test.php?categoryID=100
+
+Verify:
+http://localhost:5050/category/listsustainablelivingcategories.test.php
+
+Update:
+http://localhost:5050/category/changesustainablelivingcategory.test.php?categoryID=100&categoryCode=RWB&categoryName=ReusableStraw&categorySize=7
+
+verify:
+http://localhost:5050/category/listsustainablelivingcategories.test.php

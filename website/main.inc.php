@@ -1,7 +1,7 @@
 <?php
 if (!isset($_SESSION['login'])) {
 ?>
-  <h2>Please login to the NJIT LED Bulbs Shop</h2><br>
+  <h2>Please login to SUSTAINABLE LIVING Shop</h2><br>
   <form name="login" action="index.php" method="post">
     <label>Email:</label>
     <input type="text" name="emailAddress" size="20">
@@ -16,7 +16,7 @@ if (!isset($_SESSION['login'])) {
   </form>
   <?php
 } else {
-   echo "<h1>NJIT LED Bulbs Shop</h1>";
+   echo "<h1>SUSTAINABLE LIVING SHOP</h1>";
    echo "<h2>Welcome, {$_SESSION['login']}</h2>";
 ?>
    <br><br>
