@@ -1,12 +1,21 @@
 <?php
 session_start();
+// C:\Users\rehma\OneDrive\Desktop\IT202Project\Tu28-IT202-Project\website\Products\sustainablelivingproducts.php
+include("sustainablelivingcategory.php");
+include("sustainablelivingproducts.php");
 ?>
 <!DOCTYPE html>
 <html>
 <head><title>SUSTAINABLE LIVING</title></head>
 <body>
+<header>
+       <?php include("header.inc.php"); ?>
+   </header>
+   <section style="height: 425px;">
+       <nav style="float: left; height: 100%;">
+           <?php include("nav.inc.php"); ?>
+       </nav>
    <section id="container">
-    
        <main>
            <?php
           
@@ -16,9 +25,12 @@ session_start();
                include("main.inc.php");
                
            }
-           //Tanzeel ur Rehman,10/4/24, IT202-005, Phase 1 assignment
+           //Tanzeel ur Rehman,10/30/24, IT202-005, Internet Applications, Phase 1 assignment, tu28@nj
            ?>
        </main>
    </section>
+   <footer>
+       <?php include("footer.inc.php"); ?>
+   </footer>
 </body>
 </html>

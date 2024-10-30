@@ -1,5 +1,7 @@
 <?php
-require_once('../database.php');
+require_once('C:\Users\rehma\OneDrive\Desktop\IT202Project\Tu28-IT202-Project\website\database.php');
+// require_once('../database.php');
+
 
 class SUSTAINABLELIVING {
     public $SUSTAINABLELIVINGID;
@@ -156,4 +158,5 @@ class SUSTAINABLELIVING {
         return $result;
     }
 }
+//Tanzeel ur Rehman,10/4/24, IT202-005, Phase 1 assignment 10/20/24
 ?>

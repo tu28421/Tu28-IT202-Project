@@ -24,3 +24,5 @@ VALUES
 ('tyler@SUSTAINABLELIVING.com', SHA2('SUSTAINABLELIVING3', 256), 'He/Him', 'Tyler', 'May', NOW());
 
 --Tanzeel ur Rehman,10/4/24, IT202-005, Phase 1 assignment
+
+

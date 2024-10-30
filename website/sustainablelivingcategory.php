@@ -1,5 +1,6 @@
 <?php
-require_once('../database.php');
+require_once('C:\Users\rehma\OneDrive\Desktop\IT202Project\Tu28-IT202-Project\website\database.php');
+// require_once('../database.php');
 
 class Category {
     public $SUSTAINABLELIVINGCategoryCode;

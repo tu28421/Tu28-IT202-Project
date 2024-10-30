@@ -1,14 +1,15 @@
 <?php
-include('sustainablelivingproducts.php'); 
+//include('sustainablelivingproducts.php'); 
+if (isset($_SESSION['login'])) {
 
-$itemID = $_GET['itemID'];
-$itemCode = $_GET['itemCode']; 
-$itemName = $_GET['itemName'];
-$itemDescription = $_GET['itemDescription'];
-$categoryID = $_GET['categoryID'];
-$wholesalePrice = $_GET['wholesalePrice']; 
-$listPrice = $_GET['listPrice'];
-$color = $_GET['color']; 
+$itemID = $_POST['itemID'];
+$itemCode = $_POST['itemCode']; 
+$itemName = $_POST['itemName'];
+$itemDescription = $_POST['itemDescription'];
+$categoryID = $_POST['categoryID'];
+$wholesalePrice = $_POST['wholesalePrice']; 
+$listPrice = $_POST['listPrice'];
+$color = $_POST['color']; 
 
 if ((trim($itemID) == '') || !is_numeric($itemID) || 
     (trim($itemCode) == '') || 
@@ -38,4 +39,8 @@ if ((trim($itemID) == '') || !is_numeric($itemID) ||
         echo "<h2>Sorry, there was a problem adding that item</h2>\n";
     }
 }
-?>
+} else {
+    echo "<h2>Please login first</h2>\n";
+ }
+ ?>
+ 

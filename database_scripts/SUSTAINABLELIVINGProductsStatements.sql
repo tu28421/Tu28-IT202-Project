@@ -90,3 +90,5 @@ INSERT INTO SUSTAINABLELIVINGProducts
 (SUSTAINABLELIVINGProductID, SUSTAINABLELIVINGProductCode, SUSTAINABLELIVINGProductName, SUSTAINABLELIVINGDescription, SUSTAINABLELIVINGCategoryID, SUSTAINABLELIVINGWholesalePrice, SUSTAINABLELIVINGListPrice, DateCreated, SUSTAINABLELIVINGColor)
 VALUES
 (5002, 'BR30', 'BR30 LED Bulb', 'Designed for recessed or track lighting, BR30 bulbs have a wider beam angle and are ideal for illuminating larger areas. They consume less energy than incandescent options while providing bright, focused light suitable for both indoor and outdoor use.', 500, 4.99, 9.99, NOW(), 'Yellow');
+
+
