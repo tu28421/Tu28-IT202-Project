@@ -7,11 +7,14 @@ include("sustainablelivingproducts.php");
 <!DOCTYPE html>
 <html>
 <head><title>SUSTAINABLE LIVING</title></head>
+<link rel="stylesheet" type="text/css" href="ih_styles.css">
+<link rel="icon" type="image/png" href="images/logo.png">
+
 <body>
 <header>
        <?php include("header.inc.php"); ?>
    </header>
-   <section style="height: 425px;">
+   <section style="height: 375px;">
        <nav style="float: left; height: 100%;">
            <?php include("nav.inc.php"); ?>
        </nav>
